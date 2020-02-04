@@ -32,3 +32,9 @@
 			message: "OK"
 		} );
 	} );
+
+	app.get( '/goodgame', function( req, res ) {
+		return res.json( {
+			message: "OK"
+		} );
+	} );
